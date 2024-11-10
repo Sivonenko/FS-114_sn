@@ -4,173 +4,227 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business-promotion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <nav>
-        <a href="">Product</a>
-        <ul>
-          <li><a href="">Product</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="">Resources</a></li>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="">Product</a>
+          <ul class="nav-list">
+            <li><a class="nav-link current" href="">Product</a></li>
+            <li><a class="nav-link" href="./customers.html">Customers</a></li>
+            <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
+            <li><a class="nav-link" href="">Resources</a></li>
+          </ul>
+        </nav>
+        <ul class="header-list-btn">
+          <li>
+            <button class="header-btn header-btn-in" type="button">
+              Sign In
+            </button>
+          </li>
+          <li>
+            <button class="header-btn header-btn-up" type="button">
+              Sign Up
+            </button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- hero -->
-      <section>
-        <h1>Work at the speed of thought</h1>
-        <p>
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <ul>
-          <li><button type="button">Get started</button></li>
-          <li><button type="button">Watch the Video</button></li>
-        </ul>
-        <img
-          src="./images/hero-img-min.png"
-          alt="people"
-          width="610"
-          height="555"
-        />
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-wrapper">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <ul class="hero-list-btn">
+              <li>
+                <button class="hero-btn-started" type="button">
+                  Get started
+                </button>
+              </li>
+              <li>
+                <button class="hero-btn-watch" type="button">
+                  Watch the Video
+                </button>
+              </li>
+            </ul>
+          </div>
+          <img
+            src="./images/hero-img-min.png"
+            alt="people"
+            width="610"
+            height="555"
+          />
+        </div>
       </section>
       <!-- Product -->
-      <section>
-        <h2>Product was Built Specifically for You</h2>
-        <ul>
-          <li>
-            <h3>First click tests</h3>
-            <p>While most people enjoy casino gambling,</p>
-          </li>
-          <li>
-            <h3>Design surveys</h3>
-            <p>Sports betting, lottery and bingo playing for the fun</p>
-          </li>
-          <li>
-            <h3>Preference tests</h3>
-            <p>The Myspace page defines the individual.</p>
-          </li>
-          <li>
-            <h3>Five second tests</h3>
-            <p>Personal choices and the overall personality of the person.</p>
-          </li>
-        </ul>
-        <button type="button">SIGN UP NOW</button>
+      <section class="product">
+        <div class="container">
+          <h2 class="product-title">Product was Built Specifically for You</h2>
+          <ul class="product-list">
+            <li class="product-item">
+              <h3 class="product-subtitle">First click tests</h3>
+              <p class="product-text">
+                While most people enjoy casino gambling,
+              </p>
+            </li>
+            <li class="product-item">
+              <h3 class="product-subtitle">Design surveys</h3>
+              <p class="product-text">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </li>
+            <li class="product-item">
+              <h3 class="product-subtitle">Preference tests</h3>
+              <p class="product-text">
+                The Myspace page defines the individual.
+              </p>
+            </li>
+            <li class="product-item">
+              <h3 class="product-subtitle">Five second tests</h3>
+              <p class="product-text">
+                Personal choices and the overall personality of the person.
+              </p>
+            </li>
+          </ul>
+          <button class="product-btn" type="button">SIGN UP NOW</button>
+        </div>
       </section>
       <!-- Management -->
       <section>
-        <h2>Effortless Validation for Management</h2>
-        <p>
-          The Myspace page defines the individual, his or her characteristics,
-          traits, personal choices and the overall personality of the person.
-        </p>
-        <ul>
-          <li>
-            <h3>Accessory makers</h3>
-            <p>
-              While most people enjoy casino gambling, sports betting, lottery
-              and bingo playing for the fun
-            </p>
-          </li>
-          <li>
-            <h3>Alterationists</h3>
-            <p>
-              If you are looking for a new way to promote your business that
-              won’t cost you more money,
-            </p>
-          </li>
-        </ul>
-        <img
-          src="./images/management-img-min.png"
-          alt="note"
-          width="540"
-          height="500"
-        />
+        <div class="container">
+          <h2>Effortless Validation for Management</h2>
+          <p>
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <ul>
+            <li>
+              <h3>Accessory makers</h3>
+              <p>
+                While most people enjoy casino gambling, sports betting, lottery
+                and bingo playing for the fun
+              </p>
+            </li>
+            <li>
+              <h3>Alterationists</h3>
+              <p>
+                If you are looking for a new way to promote your business that
+                won’t cost you more money,
+              </p>
+            </li>
+          </ul>
+          <img
+            src="./images/management-img-min.png"
+            alt="note"
+            width="540"
+            height="500"
+          />
+        </div>
       </section>
       <!-- Customers -->
       <section>
-        <img
-          src="./images/support-img-min.png"
-          alt="support"
-          width="540"
-          height="500"
-        />
-        <h2>Easier decision making for Customer Support</h2>
-        <p>
-          The Myspace page defines the individual, his or her characteristics,
-          traits, personal choices and the overall personality of the person.
-        </p>
-        <ul>
-          <li>
-            <p>Never worry about overpaying for your energy again.</p>
-          </li>
-          <li>
-            <p>
-              We will only switch you to energy companies that we trust and will
-              treat you right
-            </p>
-          </li>
-          <li>
-            <p>We track the markets daily and know where the savings are.</p>
-          </li>
-        </ul>
+        <div class="container">
+          <img
+            src="./images/support-img-min.png"
+            alt="support"
+            width="540"
+            height="500"
+          />
+          <h2>Easier decision making for Customer Support</h2>
+          <p>
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <ul>
+            <li>
+              <p>Never worry about overpaying for your energy again.</p>
+            </li>
+            <li>
+              <p>
+                We will only switch you to energy companies that we trust and
+                will treat you right
+              </p>
+            </li>
+            <li>
+              <p>We track the markets daily and know where the savings are.</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section>
-        <h2>Optimisation for Collaborative</h2>
-        <p>
-          Few would argue that, despite the advancements of feminism over the
-          past three decades, women still face a double standard when it comes
-          to their behavior.
-        </p>
-        <ul>
-          <li>
-            <h3>Accessory makers</h3>
-            <p>
-              While most people enjoy casino gambling, sports betting, lottery
-              and bingo playing for the fun
-            </p>
-          </li>
-          <li>
-            <h3>Alterationists</h3>
-            <p>
-              If you are looking for a new way to promote your business that
-              won’t cost you more money,
-            </p>
-          </li>
-        </ul>
-        <img
-          src="./images/collaboration-img-min.png"
-          alt="collaboration"
-          width="540"
-          height="500"
-        />
+        <div class="container">
+          <h2>Optimisation for Collaborative</h2>
+          <p>
+            Few would argue that, despite the advancements of feminism over the
+            past three decades, women still face a double standard when it comes
+            to their behavior.
+          </p>
+          <ul>
+            <li>
+              <h3>Accessory makers</h3>
+              <p>
+                While most people enjoy casino gambling, sports betting, lottery
+                and bingo playing for the fun
+              </p>
+            </li>
+            <li>
+              <h3>Alterationists</h3>
+              <p>
+                If you are looking for a new way to promote your business that
+                won’t cost you more money,
+              </p>
+            </li>
+          </ul>
+          <img
+            src="./images/collaboration-img-min.png"
+            alt="collaboration"
+            width="540"
+            height="500"
+          />
+        </div>
       </section>
     </main>
     <footer>
-      <a href="">Product</a>
-      <b>Resource</b>
-      <ul>
-        <li><a href="">About Us </a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">FAQ</a></li>
-      </ul>
-      <b>Legal Stuff</b>
-      <ul>
-        <li><a href="">Disclaimer </a></li>
-        <li><a href="">Financing</a></li>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Terms of Service</a></li>
-      </ul>
-      <p>knowing you're always on the best energy deal.</p>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+      <div class="container">
+        <a href="">Product</a>
+        <b>Resource</b>
+        <ul>
+          <li><a href="">About Us </a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">FAQ</a></li>
+        </ul>
+        <b>Legal Stuff</b>
+        <ul>
+          <li><a href="">Disclaimer </a></li>
+          <li><a href="">Financing</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms of Service</a></li>
+        </ul>
+        <p>knowing you're always on the best energy deal.</p>
+        <p>Made With Love By Figmaland All Right Reserved</p>
+      </div>
     </footer>
   </body>
 </html>
