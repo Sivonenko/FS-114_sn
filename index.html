@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!-- Header -->
     <header class="header">
@@ -226,5 +227,64 @@
         <p>Made With Love By Figmaland All Right Reserved</p>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-close-btn">
+          <svg class="modal-close-icon" width="14" height="14">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="mpdal-title">Order Form</p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label
+            ><input
+              id="user-name"
+              name="user-name"
+              placeholder="Your name"
+              type="text"
+              class="modal-input"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-phone" class="modal-label">Phone number</label
+            ><input
+              id="user-phone"
+              name="user-phone"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+              type="tel"
+              class="modal-input"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-label">E-mail</label
+            ><input
+              id="user-email"
+              name="user-email"
+              placeholder="example@gmail.com"
+              type="email"
+              class="modal-input"
+            />
+          </div>
+          <div class="modal-field">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              class="input-chek visually-hidden"
+            />
+            <label for="user-privacy" class="label-check"
+              ><span class="checkbox">
+                <svg class="icon-check" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="check-link">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit" class="modal-send-btn">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
